@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="absolute">Thanh menu</div>
+    <!-- ID selector -->
+    <h1 id="heading1">ĐÂY LÀ HEADING SỐ 1</h1>
+    <h1 id="heading2">ĐÂY LÀ HEADING SỐ 2</h1>
+    <h1>ĐÂY LÀ HEADING SỐ 3</h1>
+    <br />
+    <p>-----------------------------------------</p>
+    <br />
+    <h2 class="heading3">ĐÂY LÀ HEADING SỐ 3</h2>
+    <h2 class="heading4">ĐÂY LÀ HEADING SỐ 4</h2>
+    <h2>ĐÂY LÀ HEADING SỐ 5</h2>
+
+
+    Tạo một trang web hiển thị 1 sản phẩm. Mỗi sản phẩm gồm: 
+        - Tên sản phẩm 
+        - Hình ảnh 
+        - Giá tiền 
+        - Nút "Mua ngay"
+    <div class="item">
+      <h3 class="name">Tên sản phẩm: Laptop</h3>
+      <img src="data:image/jpeg;base64,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" alt="">
+      <p class="cost">Gía tiền: 15.000.000VND</p>
+      <button class="buy-now">Mua ngay</button>
+    </div>
+
+    <div class="fixed">Thông báo cố định</div>
+    
+    <button class="relative">Quay lại đầu trang</button>
+  </body>
+</html>

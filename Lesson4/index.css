@@ -1,0 +1,59 @@
+#heading1 {
+    color: red;
+}
+
+#heading2 {
+    color: blueviolet;
+}
+
+.heading3 {
+    color:blue;
+}
+
+.heading4 {
+    color:seagreen;
+}
+.item {
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 30%;
+    display: block;
+    text-align: center;
+    padding: 20px;
+    background-color: #FFFF99;
+    position: static;
+}
+.name {
+    color: black;
+    font-size: 30px;
+}
+.cost {
+    color: black;
+}
+.buy-now {
+    width: 80%;
+    height: 30px;
+}
+
+.fixed {
+    position: fixed;
+    background-color: red;
+    border: 1px solid black;
+    padding: 20px;
+    top: 0;
+    right: 0;
+}
+
+.absolute {
+    background-color: black;
+    color: white;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+.relative {
+    position: relative;
+    background-color: blue;
+    left: 90%;
+}

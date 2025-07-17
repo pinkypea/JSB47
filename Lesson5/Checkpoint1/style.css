@@ -1,11 +1,4 @@
-/* Reset cơ bản */
-/* * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-} */
 
-/* Cài đặt chung cho trang */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: linear-gradient(to right, #e0f7fa, #ffffff);
@@ -15,7 +8,6 @@ body {
   margin: auto;
 }
 
-/* Tiêu đề chính */
 h1 {
   color: #00796b;
   font-size: 36px;
@@ -23,7 +15,6 @@ h1 {
   text-align: center;
 }
 
-/* Tiêu đề phụ */
 h2 {
   color: #004d40;
   margin-top: 20px;
@@ -32,14 +23,12 @@ h2 {
   border-bottom: 2px solid #b2dfdb;
 }
 
-/* Đoạn mô tả */
 p {
   font-size: 18px;
   margin-bottom: 20px;
   text-align: justify;
 }
 
-/* Danh sách kỹ năng và liên kết mạng xã hội */
 ul.skills,
 ul.social-links {
   border: 2px solid #b2dfdb;
@@ -54,7 +43,6 @@ ul li {
   margin-bottom: 8px;
 }
 
-/* Hình ảnh đại diện */
 img {
   width: 200px;
   height: 200px;
@@ -65,7 +53,6 @@ img {
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
  
-/* Liên kết mạng xã hội */
 .social-links a {
   text-decoration: none;
   color: #00695c;
@@ -75,7 +62,6 @@ img {
   color: #d81b60;
 }
 
-/* Thông tin cá nhân */
 .personal-info {
   list-style: none;
   padding: 15px 25px;

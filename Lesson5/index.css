@@ -1,0 +1,56 @@
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+    .container{
+        width: 90%;
+    }
+}
+
+.block {
+    display: block;
+    background-color: gray;
+}
+
+span {
+    display: inline;
+    background-color: red;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.button1 {
+    display: inline-block;
+    background-color: red;
+    padding: 10px;
+    margin: 5px;
+}
+
+.button2 {
+    display: inline-block;
+    background-color: blue;
+    padding: 10px;
+    margin: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}

@@ -1,0 +1,35 @@
+#heading1 {
+    color: red;
+}
+
+#heading2 {
+    color: blue;
+}
+
+#heading3 {
+    color: chartreuse;
+}
+
+.heading4 {
+    color: aqua;
+}
+
+.heading5 {
+    color: darkmagenta;
+}
+
+.heading6 {
+    color: orange;
+}
+
+#title {
+    color: red;
+}
+
+.title {
+    color: blue;
+}
+
+h2 {
+    color: green;
+}

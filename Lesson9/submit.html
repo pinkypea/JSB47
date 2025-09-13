@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gửi tin tức</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Trang chủ</a>
+        <a href="submit.html">Gửi tin tức</a>
+        <a href="">Đăng ký</a>
+        <a href="">Đăng nhập</a>
+    </nav>
+
+    <div class="container">
+        <h1>Gửi tin tức mới</h1>
+        <form action="#" method="post">
+            <div id="information">
+                <input type="text" name="name" placeholder="Họ và tên tác giả" required>
+                <input type="email" name="email" placeholder="Email liên lạc" required>
+            </div>
+            <input type="text" name="title" placeholder="Tiêu đề" required>
+            <input type="url" name="image" placeholder="Link ảnh" required>
+            <textarea name="content" placeholder="Nội dung tin tức" rows="5" required></textarea>
+            <button type="submit">Gửi tin</button>
+        </form>
+    </div>
+</body>
+</html>
